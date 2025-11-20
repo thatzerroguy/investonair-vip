@@ -1,6 +1,6 @@
-import { PrismaClient } from '../generated/prisma/client';
-import { Pool } from 'pg';
-import { PrismaPg } from '@prisma/adapter-pg';
+import {PrismaClient} from '@/generated/prisma/client';
+import {Pool} from 'pg';
+import {PrismaPg} from '@prisma/adapter-pg';
 
 // PrismaClient is attached to the `global` object in development to prevent
 // exhausting your database connection limit.
