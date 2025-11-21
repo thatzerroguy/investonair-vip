@@ -32,7 +32,7 @@ export default function OrderServicePage() {
         <main className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4 py-8">
             <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-sm md:max-w-md lg:max-w-lg">
                 <h1 className="text-xl md:text-2xl font-bold text-yellow-600 mb-4 text-center">
-                    ORDER OF SERVICE
+                    PROGRAM SCHEDULE
                 </h1>
 
                 <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 text-center">

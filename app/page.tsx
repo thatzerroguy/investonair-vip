@@ -86,7 +86,7 @@ export default function InvitationPage() {
                 onClick={handleOrderService}
                 className="w-full bg-black text-white font-semibold py-3 rounded-md border border-yellow-500 hover:bg-gray-900 active:bg-yellow-600 active:border-black transition"
             >
-              ORDER OF SERVICE
+              PROGRAM SCHEDULE
             </button>
           </div>
 
