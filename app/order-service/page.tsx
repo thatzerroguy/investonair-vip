@@ -36,11 +36,11 @@ export default function OrderServicePage() {
                 </h1>
 
                 <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 text-center">
-                    Diamond Jubilee Celebration
+                    Launch of Financial literacy and wealth creation programme
                 </h2>
 
                 <p className="text-gray-600 text-sm md:text-base mb-6 text-center">
-                    25th December 2025 • 10:00 AM
+                    25th November 2025 • 9:00 AM
                 </p>
 
                 <div className="space-y-3 mb-6">
