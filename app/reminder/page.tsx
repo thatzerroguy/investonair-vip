@@ -29,7 +29,7 @@ export default function ReminderPage() {
         // Email validation
         const phoneRegex = /^\d{10}$/;
         if (!phoneRegex.test(phone)) {
-            alert('Please enter a valid phone number.');
+            alert('Please do not enter the first 0 in your phone number.');
             return;
         }
 

@@ -65,7 +65,7 @@ export default function InvitationPage() {
           <div className="text-gray-700 text-sm md:text-base space-y-1 mb-6">
             <p><span className="font-semibold">Date:</span> 25th November 2025</p>
             <p><span className="font-semibold">Time:</span> 9.00am - 2:20pm</p>
-            <p>Rainbow Event Marquee Center, Abuja, Federal Capital Territory, Nigeria</p>
+            <p><span className="font-semibold">Venue:</span> Rainbow Event Marquee Center, Abuja, Federal Capital Territory, Nigeria</p>
           </div>
 
           {/* Buttons */}
