@@ -52,7 +52,7 @@ export default function ReminderPage() {
 
             if (response.ok && data.success) {
                 setToastType('success');
-                setToastMessage('Reminder set successfully! Check your email for confirmation.');
+                setToastMessage('Reminder set successfully! Check your phone for confirmation sms.');
             } else {
                 setToastType('error');
                 setToastMessage(data.message || 'Failed to set reminder. Please try again.');

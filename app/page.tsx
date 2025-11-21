@@ -51,7 +51,7 @@ export default function InvitationPage() {
             Federal Ministry of Youth Development in Partnership with Investionaire
           </h3>
           <p className="text-xs md:text-xl text-gray-900 mb-3">
-            Welcomes you to Her
+            Welcomes you to the
           </p>
           <h3 className="text-2xl md:text-2xl font-bold text-gray-900 mb-4">
             Launch of Financial literacy and wealth creation programme
