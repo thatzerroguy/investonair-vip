@@ -5,27 +5,27 @@ import Link from 'next/link';
 export default function OrderServicePage() {
     // Program items for the order of service
     const programItems = [
-        'Pre-event Experience',
-        'Opening Session',
-        'Introductory Session',
-        'High Level Panel Discussion',
-        'Musical Interlude/ Wealth Quiz by MC',
-        'Launch Ceremony',
-        'National Anthem',
-        'Welcome Address by Permanent Secretary, FMYD',
-        'Mission and Vision of Investonaire Academy',
-        'Goodwill message',
-        'Remarks by Guest of Honour, Honourable Minister of Women Affairs',
-        'Prayer for the Celebrant',
-        'Live Performance - Guest Artist',
-        'Video Presentation - Showcasing',
-        'Youth Testimonial and Presentation of Funded Trading Accounts and Gifts',
-        'Keynote Address by Honourable Minister of Youths',
-        'Launch of Learning Management System (LMS)',
-        'Group Photo',
-        'Closing Remarks',
-        'Lunch is served',
-        'Meet, Greet and Networking',
+        { time: '8:30 AM', item: 'Pre-event Experience' },
+        { time: '9:45 AM', item: 'Opening Session' },
+        { time: '10:00 AM', item: 'Introductory Session' },
+        { time: '10:30 AM', item: 'High Level Panel Discussion' },
+        { time: '10:55 AM', item: 'Musical Interlude/ Wealth Quiz by MC' },
+        { time: '11:00 AM', item: 'Launch Ceremony' },
+        { time: '11:05 AM', item: 'National Anthem' },
+        { time: '11:10 AM', item: 'Welcome Address by Permanent Secretary, FMYD' },
+        { time: '11:30 AM', item: 'Mission and Vision of Investonaire Academy' },
+        { time: '11:55 PM', item: 'Goodwill message' },
+        { time: '12:05 PM', item: 'Remarks by Guest of Honour, Honourable Minister of Women Affairs' },
+        { time: '12:20 PM', item: 'Prayer for the Celebrant' },
+        { time: '12:30 PM', item: 'Live Performance - Guest Artist' },
+        { time: '12:45 PM', item: 'Video Presentation - Showcasing' },
+        { time: '1:00 PM', item: 'Youth Testimonial and Presentation of Funded Trading Accounts and Gifts' },
+        { time: '1:15 PM', item: 'Keynote Address by Honourable Minister of Youths' },
+        { time: '1:20 PM', item: 'Launch of Learning Management System (LMS)' },
+        { time: '1:45 PM', item: 'Group Photo' },
+        { time: '1:45 PM', item: 'Closing Remarks' },
+        { time: '2:15 PM', item: 'Lunch is served' },
+        { time: '2:30 PM', item: 'Meet, Greet and Networking' },
     ];
 
     return (
@@ -44,12 +44,13 @@ export default function OrderServicePage() {
                 </p>
 
                 <div className="space-y-3 mb-6">
-                    {programItems.map((item, index) => (
+                    {programItems.map((program, index) => (
                         <div
                             key={index}
-                            className="border-b border-gray-100 pb-2"
+                            className="border-b border-gray-100 pb-2 flex items-start gap-3"
                         >
-                            <span className="text-sm text-gray-800">{item}</span>
+                            <span className="text-sm font-bold text-black whitespace-nowrap">{program.time}</span>
+                            <span className="text-sm text-gray-800">{program.item}</span>
                         </div>
                     ))}
                 </div>
