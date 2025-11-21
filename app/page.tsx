@@ -33,7 +33,7 @@ export default function InvitationPage() {
           {/* Logo */}
           <div className="mb-4">
             <Image
-                src="/investonaire-logo.jpeg"
+                src="/fmyd-logo.jpg"
                 alt="Investonair Logo"
                 width={120}
                 height={120}
