@@ -24,7 +24,7 @@ export default function OrderServicePage() {
         { time: '1:15 PM', item: 'Group Photo' },
         { time: '1:20 PM', item: 'Closing Remarks' },
         { time: '2:25 PM', item: 'Lunch is served' },
-        { time: '2:20 PM', item: 'Meet, Greet and Networking' },
+        { time: '2:25 PM', item: 'Meet, Greet and Networking' },
     ];
 
     return (
